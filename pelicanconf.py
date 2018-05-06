@@ -4,7 +4,8 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Reeher-Palmer'
 SITENAME = 'Reeher-Palmer'
-SITEURL = ''
+SITEURL = 'localhost:8000'
+SITEDESC = ''
 
 PATH = 'content'
 
@@ -33,3 +34,28 @@ DEFAULT_PAGINATION = 10
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
+
+# plugins
+
+PLUGIN_PATH = ['/pelican/pelican-plugins/']
+PLUGINS = ['i18n_subsites', 'tipue_search']
+
+# Theme
+
+THEME_PATHS = ['/pelican/pelican-themes/']
+THEME = (''.join(THEME_PATHS)+('simple-bootstrap4'))
+
+JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']} # this is for bootstrap3
+BOOTSTRAP_FLUID = True
+DISPLAY_BREADCRUMBS = True
+DISPLAY_CATEGORY_IN_BREADCRUMBS = True
+DISPLAY_PAGES_ON_MENU = True
+
+INDEX_CONTENT = True
+
+STATIC_TEMPLATES = ['search.html']
+
+#ABOUT_ME = 'WRITER OF ROMANCES, BREAKER OF HEARTS'
+#AVATAR = 'images/avi.jpg'
+#TWITTER_USERNAME = 'ziya_adan'
+#TWITTER_CARDS = True
