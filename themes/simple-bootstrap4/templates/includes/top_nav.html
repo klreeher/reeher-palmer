@@ -1,0 +1,26 @@
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <a class="navbar-brand" href="{{ SITEURL }}">{{ SITENAME }}</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarColor01">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="{{ SITEURL }}">Home <span class="sr-only">(current)</span></a>
+            </li>
+            {% if DISPLAY_PAGES_ON_MENU %}
+                {% for p in pages %}
+                    <li class="{% if p == page %} active {% endif %} nav-item">
+                    <a class="nav-link" href="{{ SITEURL }}/{{ p.url }}">{{ p.title }}</a></li>
+                </li>
+            {% endfor %}
+        {% endif %}
+    </ul>
+    {% if 'tipue_search' in PLUGINS %}
+        <form class="form-inline my-2 my-lg-0" action="search.html">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search">
+            <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+        </form>
+    {% endif %}
+</div>
+</nav>
