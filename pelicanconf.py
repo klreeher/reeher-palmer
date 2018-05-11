@@ -37,7 +37,7 @@ RELATIVE_URLS = True
 
 # plugins
 
-PLUGIN_PATH = ['plugins/']
+PLUGIN_PATHS = ['plugins/']
 PLUGINS = ['i18n_subsites', 'tipue_search']
 
 # Theme
