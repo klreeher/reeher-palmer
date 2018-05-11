@@ -8,7 +8,8 @@ install:
 - pip install -r requirements.txt
 
 script:
-- make publish
+#- make publish
+- pelican content -s publishconf.py -D 
 deploy:
   provider: pages
   local_dir: ./output
