@@ -37,12 +37,12 @@ RELATIVE_URLS = True
 
 # plugins
 
-PLUGIN_PATH = ['/pelican/pelican-plugins/']
+PLUGIN_PATH = ['plugins/']
 PLUGINS = ['i18n_subsites', 'tipue_search']
 
 # Theme
 
-THEME_PATHS = ['/pelican/pelican-themes/']
+THEME_PATHS = ['themes/']
 THEME = (''.join(THEME_PATHS)+('simple-bootstrap4'))
 
 JINJA_ENVIRONMENT = {'extensions': ['jinja2.ext.i18n']} # this is for bootstrap3

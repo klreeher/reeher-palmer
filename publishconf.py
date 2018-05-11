@@ -13,6 +13,9 @@ from pelicanconf import *
 SITEURL = ''
 RELATIVE_URLS = False
 
+PLUGIN_PATH = ['plugins']
+THEME_PATHS = ['themes']
+
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
 CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
