@@ -10,10 +10,10 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://klreeher.github.io/reeher-palmer/'
+SITEURL = 'https://klreeher.github.io/reeher-palmer'
 RELATIVE_URLS = True
 
-PLUGIN_PATH = ['plugins']
+PLUGIN_PATHS = ['plugins']
 THEME_PATHS = ['themes']
 
 FEED_ALL_ATOM = 'feeds/all.atom.xml'

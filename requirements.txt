@@ -2,3 +2,4 @@ pelican
 beautifulsoup4
 bs4
 ghp-import
+markdown
