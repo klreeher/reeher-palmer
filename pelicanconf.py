@@ -53,7 +53,9 @@ DISPLAY_PAGES_ON_MENU = True
 
 INDEX_CONTENT = True
 
-STATIC_TEMPLATES = ['search.html']
+TEMPLATE_PAGES = {
+        'search.html': 'search.html',
+        }
 
 #ABOUT_ME = 'WRITER OF ROMANCES, BREAKER OF HEARTS'
 #AVATAR = 'images/avi.jpg'
