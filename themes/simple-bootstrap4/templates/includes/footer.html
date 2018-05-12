@@ -1,18 +1,19 @@
-    <div class="navbar navbar-expand-lg bg-light nav-justified">
-        <ul class="navbar navbar-expand-lg">
-            
-      {% if FEED_ALL_ATOM %}
-            <li class="nav-item"><a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}">RSS Feed</a>
-            </li>
-        {% endif %}
-        <li class="nav-item">
-            <address id="about" class="vcard body">
-                &copy; <a href="{{SITEURL}}">{{SITENAME}}</a> Proudly powered by <a href="http://getpelican.com/">Pelican</a>
-                </address><!-- /#about -->
-            </li>
-            <span class="navbar-text justify-content-end">
-                <a href="#top">Back to top</a>
-            </span>
-        </div>
-    </ul>
+<div class="navbar">
     
+    {% if FEED_ALL_ATOM %}
+        <div class="nav-item"><a href="{{ FEED_DOMAIN }}/{{ FEED_ALL_ATOM }}">RSS Feed</a>
+    </div>
+{% endif %}
+<div class="nav-item navbar-text d-flex justify-content-start">
+    <address id="about" class="vcard body">
+        &copy; <a href="{{SITEURL}}">{{SITENAME}}</a>
+        <div> Proudly powered by <a href="http://getpelican.com/">Pelican</a> </div>
+        </address><!-- /#about -->
+    </div>
+    <div class="nav-item navbar-text d-flex justify-content-end">
+        <span class="navbar-text">
+            <a href="#top">Back to top</a>
+        </span>
+    </div>
+</div>
+</ul>
