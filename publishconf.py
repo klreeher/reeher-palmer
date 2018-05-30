@@ -11,7 +11,7 @@ sys.path.append(os.curdir)
 from pelicanconf import *
 
 SITEURL = 'https://klreeher.github.io/reeher-palmer'
-RELATIVE_URLS = True
+RELATIVE_URLS = False
 
 PLUGIN_PATHS = ['plugins']
 THEME_PATHS = ['themes']
