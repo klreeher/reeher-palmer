@@ -13,7 +13,7 @@ script:
 deploy:
   provider: pages
   local_dir: ../output
-  target-branch: master
+  target-branch: gh-pages
   skip_cleanup: true
   github_token: $GITHUB_TOKEN  # Set in travis-ci.org dashboard
   # only deploy on "main" branch
