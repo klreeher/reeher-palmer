@@ -16,24 +16,9 @@ Several nearby hotels include:
 
 We welcome and encourage photography during our wedding ceremony and reception - but no flash, please!
 
-We plan on having minimal formal photography. Any photos you take, we'd love to see a copy of! Please email us with them @ <a href="wedding@reeher-palmer.net">wedding@reeher-palmer.net</a>
+We plan on having minimal formal photography. Any photos you take, we'd love to see a copy of! Please email us with them @ [wedding@reeher-palmer.net](mailto:wedding@reeher-palmer.net)
 
 ---
-
-<!-- MarkdownTOC -->
-
-- Wedding Ceremony
-    - Ceremony Location
-    - Parking & Construction
-    - Accessibility
-- Reception
-    - Menu
-- Wedding Registry
-
-<!-- /MarkdownTOC -->
-
----
-
 
 ## Wedding Ceremony
 
@@ -52,6 +37,8 @@ We know of no construction that should be impacting your route at this time.
 
 You can find a fuller description of St. Mark's accessibility on [the Cathedral's website](https://ourcathedral.org/accessibility)..
 
+---
+
 ## Reception
 
 The reception will follow the wedding ceremony. More details closer to wedding.
@@ -62,10 +49,12 @@ The menu is not yet set, but **there will** be vegan, vegetarian, and gluten-fre
 We will be serving pork, but will have non-pork options as well.
 We will have a wide array of drinks, including Bad Weather's artisinal sodas, lemonade, and caffinated beverages of various sorts. We will also have various [Bad Weather Brewing](http://www.badweatherbrewery.com/taproom/) beers.
 
+---
+
 ## Wedding Registry
 You can find us registered at:
 
 - [Amazon](https://www.amazon.com/wedding/share/reeher-palmer) 
-- [Food52](https://food52.com/shop/registry/2735-candace-elena-and-kate) </li>
+- [Food52](https://food52.com/shop/registry/2735-candace-elena-and-kate) 
 
 For reference, our Fiestaware colors are [turquoise](https://fiestafactorydirect.com/collections/turquoise) and [claret](https://fiestafactorydirect.com/collections/claret).
