@@ -10,8 +10,8 @@ import sys
 sys.path.append(os.curdir)
 from pelicanconf import *
 
-SITEURL = 'https://klreeher.github.io/reeher-palmer'
-RELATIVE_URLS = False
+SITEURL = 'https://reeher-palmer.net'
+RELATIVE_URLS = True
 
 PLUGIN_PATHS = ['plugins']
 THEME_PATHS = ['themes']
