@@ -17,12 +17,16 @@
         {% endif %}
     </ul>
     {% if 'tipue_search' in PLUGINS %}
-        <li><span>
-            <form class="navbar-search" action="{{ SEARCH_URL | default('/search.html') }}">
-                <input type="text" class="search-query" placeholder="Search" name="q" id="tipue_search_input" required>
-            </form></span>
+        <li>
+            <span>
+                <form class="navbar-search" action="{{ SEARCH_URL | default('/search.html') }}" onsubmit="return validateForm(this.elements['q'].value);">
+                    <div class="input-group">
+                        <input class="search-query" type="text" placeholder="Search" aria-label="Search" name="q" id="tipue_search_input">
+                        </div>
+                    </div>
+                </form>
+            </span>
         </li>
     {% endif %}
-    
 </div>
 </nav>
