@@ -54,6 +54,8 @@ TEMPLATE_PAGES = {
 
 # Analytics Matomo/Piwik
 
+MATOMO_TRACKING = False
+
 #PIWIK_URL= "https://reeher-palmer.innocraft.cloud/"
 #PIWIK_SSL_URL= ""
 #PIWIK_SITE_ID = "1"
