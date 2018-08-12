@@ -32,6 +32,6 @@ addons:
 deploy:
   provider: script
   skip_cleanup: true
-  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/output/ deploy@reeher-palmer.net:reeher-palmer.net/public_html/
+  script: travis_wait rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/output/ deploy@reeher-palmer.net:reeher-palmer.net/public_html/
   on:
     branch: master
