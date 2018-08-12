@@ -2,11 +2,6 @@
 
 # reeher-palmer.net
 
-a landing page for [reeher-palmer.net](https://reeher-palmer.net/), home for @C-E-P and @klreeher.
+a landing page for [reeher-palmer.net](https://reeher-palmer.net/)
 
-## ToDO
-
-- ~~put up landing page~~ 
-- set up appropriate dns redirects for @C-E-P's blog (https://elena.reeher-palmer.net/ >> http://elena-palmer.net/)
-- consider consolidating with both K's blog and wedding site? (elena wants to be independant, bah)
-- reeher-palmer.net/wedding >> wedding.reeher-palmer.net or vice versa?
+built using pelican

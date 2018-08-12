@@ -16,7 +16,7 @@ Several nearby hotels include:
 
 We welcome and encourage photography during our wedding ceremony and reception - but no flash, please!
 
-We plan on having minimal formal photography. Any photos you take, we'd love to see a copy of! Please email us with them @ [wedding@reeher-palmer.net](mailto:wedding@reeher-palmer.net)
+Any photos you take, we'd love to see a copy of! Please email us with them @ [wedding@reeher-palmer.net](mailto:wedding@reeher-palmer.net)
 
 ---
 
@@ -31,22 +31,23 @@ To enter the Cathedral, you can go up the stairs to enter the front of the Cathe
 ### Parking & Construction 
 
 The church's main parking lot is available at Oak Grove Street and 15th Street. For further details on parking, see [St. Mark's website](https://ourcathedral.org/parking).
-We know of no construction that should be impacting your route at this time.
+
+Currently, there is a [large construction project impacting I-35W and I-94](http://www.dot.state.mn.us/35w94/). 
 
 ### Accessibility
 
-You can find a fuller description of St. Mark's accessibility on [the Cathedral's website](https://ourcathedral.org/accessibility)..
+You can find a fuller description of St. Mark's accessibility on [the Cathedral's website](https://ourcathedral.org/accessibility).
 
 ---
 
-## Reception
+## Reception [ 2:00PM - 8:00PM ]
 
-The reception will follow the wedding ceremony. More details closer to wedding.
+The reception will be at [Bad Weather Brewery](http://www.badweatherbrewery.com/taproom/) and starts at 2pm. Around 4PM, there will be a brewery tour if you're interested.  
 
 ### Menu
 
-The menu is not yet set, but **there will** be vegan, vegetarian, and gluten-free dining options. These options will also not just be a side salad!
-We will be serving pork, but will have non-pork options as well.
+The menu will include vegan, vegetarian, and gluten-free options. We're currently planning on catering from [Holy Land](http://holylandbrand.com). 
+
 We will have a wide array of drinks, including Bad Weather's artisinal sodas, lemonade, and caffinated beverages of various sorts. We will also have various [Bad Weather Brewing](http://www.badweatherbrewery.com/taproom/) beers.
 
 ---
