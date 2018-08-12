@@ -1,20 +1,37 @@
 language: python
 python:
-  - "3.5"
+- '3.5'
 branches:
   only:
   - master
 install:
 - pip install -r requirements.txt
-
 script:
-#- make publish
-- pelican content -s publishconf.py -D 
+- pelican content -s publishconf.py -D
 deploy:
   provider: pages
-  local_dir: ./output
+  local_dir: "./output"
   skip_cleanup: true
-  github_token: $GIT_TOKEN # Set in travis-ci.org dashboard
+  github_token: "$GIT_TOKEN"
   target_branch: gh-pages
+  on:
+    branch: master
+before_install:
+- openssl aes-256-cbc -K $encrypted_2fad75eda605_key -iv $encrypted_2fad75eda605_iv
+  -in deploy_rsa.enc -out deploy_rsa -d
+
+addons:
+  ssh_known_hosts: <deploy-host>
+
+before_deploy:
+- openssl aes-256-cbc -K $encrypted_<...>_key -iv $encrypted_<...>_iv -in deploy_rsa.enc -out /tmp/deploy_rsa -d
+- eval "$(ssh-agent -s)"
+- chmod 600 /tmp/deploy_rsa
+- ssh-add /tmp/deploy_rsa
+
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/output kate@reeher-palmer.net:/var/www/html/reeher-palmer.net/public_html
   on:
     branch: master
