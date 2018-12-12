@@ -6,6 +6,9 @@
 *.DS_Store
 *.swp
 *.out
+*.pyc
+.vs/*
+plugins/*
 __pycache__/**
 
 output/**
