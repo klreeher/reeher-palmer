@@ -11,7 +11,7 @@ jobs:
       #  - script: . setup.sh
     - script: pip install -r requirements.txt
       displayName: 'Install Requirements'
-    - script: pelican content -o output
+    - script: pelican content -o output -D
       displayName: 'Build Pelican Site To Output'
 
 
