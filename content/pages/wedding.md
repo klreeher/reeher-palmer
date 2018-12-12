@@ -1,7 +1,7 @@
 ---
-Title: Reeher-Palmer Wedding 2018
-Summary: We Got Married!
-Date: 2017-09-15
+title: Reeher-Palmer Wedding 2018
+summary: We Got Married!
+date: 2017-09-15
 ---
 
 We had a great time, and we hope you did too! 
