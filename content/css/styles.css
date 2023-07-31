@@ -1,0 +1,169 @@
+/* ---------------------------------------------------------
+   HTML5 Bones
+   This stylesheet contains print styling and a section for 
+   you to simply add your own. This is a basic template 
+   after all.
+   ---------------------------------------------------------*/
+body {
+}
+
+/* Default link styling */
+a:link {
+    color: #0271fb;
+}
+
+a:visited {
+    color: #bd02fb;
+}
+
+a:hover,
+a:focus {
+    color: #000;
+}
+
+a:active {
+    color: #fb0e02;
+}
+
+/* ---------------------------------------------------------
+   Author's styles
+   ---------------------------------------------------------*/
+body {
+    padding: 30px;
+    background-color: #fcfcfc;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #f0e68c;
+}
+
+main {
+    padding: 20px;
+}
+
+.center-div {
+    margin: 0 auto;
+    max-width: 700px;
+    height: 100px;
+    border-radius: 3px;
+}
+
+footer {
+    text-align: center;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+address {
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Float four columns side by side */
+.column {
+    float: left;
+    width: 50%;
+    padding: 0 10px;
+}
+
+/* Remove extra left and right margins, due to padding in columns */
+.row {
+    margin: 0 -5px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Style the counter cards */
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
+    padding: 16px;
+    text-align: center;
+    background-color: #f1f1f1;
+}
+
+/* Responsive columns - one column layout (vertical) on small screens */
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+    }
+
+}
+
+/* ---------------------------------------------------------
+   Print styles
+   ---------------------------------------------------------*/
+@media print {
+    * {
+        color: #000 !important;
+        box-shadow: none !important;
+        text-shadow: none !important;
+        background: transparent !important;
+    }
+
+    html {
+        background-color: #fff;
+    }
+
+    /* Hide navigation */
+    nav {
+        display: none;
+    }
+
+    /* Show link destinations in brackets after the link text */
+    a[href]:after {
+        content: " ("attr(href) ") ";
+    }
+
+    a[href] {
+        font-weight: bold;
+        text-decoration: underline;
+        color: #06c;
+        border: none;
+    }
+
+    /* Don't show link destinations for JavaScript or internal links */
+    a[href^="javascript:"]:after,
+    a[href^="#"]:after {
+        content: "";
+    }
+
+    /* Show abbr title value in brackets after the text */
+    abbr[title]:after {
+        content: " ("attr(title) ")";
+    }
+
+    figure {
+        margin-bottom: 1em;
+        overflow: hidden;
+    }
+
+    figure img {
+        border: 1px solid #000;
+    }
+
+}
